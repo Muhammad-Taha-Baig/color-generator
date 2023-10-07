@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Color Generator - MTB</title>
+    <!-- ========== Custom CSS ========== -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- ========== Google Fonts ========== -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ========== Color Generator ========== -->
+    <section class="color-generator">
+      <div class="container">
+        <h3>Color Generator</h3>
+        <div class="color-box"></div>
+        <input type="text" value="#66920c" readonly />
+        <div class="btns">
+          <button class="generate-btn" onclick="getColor()">Generate</button>
+          <button class="copy-btn" onclick="copyCode()">Copy</button>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Custom JS ========== -->
+    <script src="/assets/js/custom.js"></script>
+  </body>
+</html>
